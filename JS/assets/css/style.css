@@ -1,0 +1,97 @@
+/* Config Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;900&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* START - Menu  */
+
+header {
+    background-color: yellow;
+    padding: 0 50px;
+}
+
+.menu-nav {
+    /* position: fixed; */
+}
+
+.logo-js {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.row-menu {
+    padding-bottom: 10px;
+}
+
+/* END - Menu  */
+
+
+/* START - Banner  */
+
+#js-gif {
+    width: 600px;
+    border-radius: 5px;
+}
+
+.banner {
+    padding: 100px 50px;
+}
+
+.title-banner {
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.btn-js {
+    background-color: #FBFF00;
+    list-style: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.btn-js:hover {
+    color: white;
+}
+
+/* END - Banner  */
+
+.exercicios {
+    padding-bottom: 80px;
+}
+
+.exercicios ul,
+.exercicios ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.exercicios ul li a {
+    color: #FBFF00;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.img-banner {
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
