@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX004</title>
+    <style>
+        .title {
+            color: green;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Declarando Variáveis!</h1>
+
+    <script>
+        nome = window.prompt("Qual o seu nome? ")
+        //idade = window.prompt("Qual a sua idade?")
+        //work = window.prompt("Qual a sua profissão?")
+        local = "Brasil"
+        //window.alert(`O senhor ${nome} tem ${idade} anos e trabalha atualmente como ${work}, e mora no ${local}`)
+        document.write(`<span class="title">Olá ${nome}</span> </br>`)
+        document.write(`<span class="title">Seu nome tem ${nome.length} letras.</span> </br>`)
+        document.write(`<span class="title">O seu nome em maiúsculas é ${nome.toUpperCase()} </br></span>`)
+        document.write(`<span class="title">Seu nome em minúsculas é ${nome.toLowerCase()}`)
+    </script>
+</body>
+</html>
