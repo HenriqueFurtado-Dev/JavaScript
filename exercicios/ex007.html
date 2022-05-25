@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX007</title>
+    <style>
+       div#area {
+           background-color: green;
+           color: white;
+           width: 200px;
+           height: 200px;
+           line-height: 200px;
+           text-align: center;
+           margin: auto;
+           border-radius: 5px;
+           text-transform: uppercase;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+    </style>
+</head>
+<body>
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        interaja...
+    </div>
+
+    <script>
+        var area = window.document.getElementById('area')
+        function clicar() {
+            area.innerText = "Clicou!"
+            area.style.background = "red"
+        }
+
+
+        function entrar() {
+                area.style.background = "yellow"
+        }
+
+        function sair() {
+            area.style.background = "blue"
+        }
+
+    </script>
+
+</body>
+</html>

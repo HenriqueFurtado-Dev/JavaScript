@@ -43,7 +43,7 @@ header {
 }
 
 .banner {
-    padding: 100px 50px;
+    height: 90vh;
 }
 
 .title-banner {
@@ -71,6 +71,8 @@ header {
 
 /* END - Banner  */
 
+
+/* START - Exercicios  */
 .exercicios {
     padding-bottom: 80px;
 }
@@ -99,4 +101,68 @@ header {
 .sub-title {
     font-size: 36px;
     font-weight: bold;
+}
+
+.sec-exercicios {
+    padding-top: 50px;
+}
+
+/* END - Exercicios  */
+
+
+/* START - Cta  */
+
+.cta {
+    background-image: url(/assets/img/banner-cta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.cta-text {
+    padding: 30px;
+    padding-left: 80px;
+}
+
+.cta .row h2 {
+    color: white;
+}
+
+.cta .row p {
+    color: white;
+}
+
+.cta .row a {
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;/*rgba(0,0,0,0.5);  Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+/* END - Cta  */
+
+/* START - sec DOM  */
+
+.sec-dom {
+    padding-top: 50px;
+}
+
+.sec-dom-text {
+    padding-bottom: 50px;
 }
