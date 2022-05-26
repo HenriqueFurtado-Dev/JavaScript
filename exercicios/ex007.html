@@ -22,27 +22,35 @@
 </head>
 <body>
 
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div id="area" onclick="clicar()">
         interaja...
     </div>
 
     <script>
+
+        //Adicionando eventos pelo JS
+
         var area = window.document.getElementById('area')
+        area.addEventListener(`click`, clicar)
+        area.addEventListener(`mouseout`, sair)
+        area.addEventListener(`mouseenter`, entrar)
+
         function clicar() {
             area.innerText = "Clicou!"
             area.style.background = "red"
         }
 
-
         function entrar() {
-                area.style.background = "yellow"
+            area.innerText = "Entrou"
         }
 
+
         function sair() {
-            area.style.background = "blue"
+            area.style.background = "green"
+            area.innerText = "Saiu"
         }
 
     </script>
 
 </body>
-</html>
+</html>    
