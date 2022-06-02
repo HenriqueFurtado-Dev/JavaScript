@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX005.1</title>
+    <style>
+        .title {
+            color: green;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <script>
+      var n1 = Number(window.prompt("Digite um número: "))
+      var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+      var n3 = Number(window.prompt("Digite mais um número:"))
+      //var n3 += 5
+      //var n++
+      ///var ++n
+      //var n--
+      //var --n
+      var n3 = n3 + 5
+      soma = n1 + n2
+      menos = n1 - n2
+      mult = n1 * n2
+      div = n1 / n2
+      poten = n1 ** n2
+      rest = n1 % n2
+      document.write(`${n1} + ${n2} = ${soma} </br>`)
+      document.write(`${n1} - ${n2} = ${menos}</br>`)
+      document.write(`${n1} x ${n2} = ${mult}</br>`)
+      document.write(`${n1} / ${n2} = ${div}</br>`)
+      document.write(`${n1} * ${n2} = ${poten}</br>`)
+      document.write(`${n1} % ${n2} = ${rest}</br>`)
+      document.write(`Adicionamos + 5 = ${n3}</br>`)
+    </script>
+</body>
+</html>
